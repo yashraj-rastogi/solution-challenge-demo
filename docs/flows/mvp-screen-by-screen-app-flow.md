@@ -1,4 +1,4 @@
-# CrisisBridge AI - Screen-by-Screen MVP App Flow
+# Crisis OS - Screen-by-Screen MVP App Flow
 
 Version: `v1.0`  
 Purpose: Implementation blueprint for AI coding agents and dev team  
@@ -72,6 +72,7 @@ Inputs:
 - org name
 - contact email
 - emergency phone
+
 Outputs:
 - organization created
 
@@ -82,6 +83,7 @@ Inputs:
 - property type (`hotel`/`hostel`)
 - address
 - default language set
+
 Outputs:
 - property profile created
 
@@ -92,6 +94,7 @@ Inputs:
 - room/bed blocks
 - zone labels
 - map image upload (MVP simple image)
+
 Outputs:
 - location hierarchy available to incident targeting
 
@@ -100,6 +103,7 @@ Device: desktop-first
 Inputs:
 - property join code policy
 - room QR generation trigger
+
 Outputs:
 - join code + QR assets
 
@@ -113,7 +117,8 @@ Purpose:
 ### `MG-01` Command Dashboard (`/manager/dashboard`)
 Device: desktop-first, mobile-safe  
 Purpose:
-- view active incidents and readiness state  
+- view active incidents and readiness state 
+
 Widgets:
 - active incidents list
 - response KPIs
@@ -126,6 +131,7 @@ Inputs:
 - incident type
 - floor/zone
 - free-text details
+
 Action:
 - create draft incident
 
@@ -136,6 +142,7 @@ Shows:
 - severity
 - guest/staff instructions
 - escalation recommendation
+
 Action:
 - approve and proceed to broadcast
 
@@ -144,6 +151,7 @@ Device: desktop + mobile
 Inputs:
 - target audience (`all`, `floor`, `zone`, `staff only`)
 - language option
+
 Action:
 - trigger broadcast
 
@@ -153,6 +161,7 @@ Shows:
 - safe/help/unable/pending counts
 - room/zone status table
 - latest updates timeline
+
 Actions:
 - escalate
 - assign staff checks
@@ -164,6 +173,7 @@ Shows:
 - affected zones
 - unresolved critical cases
 - response timeline
+
 Actions:
 - copy/share secure responder link
 

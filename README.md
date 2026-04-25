@@ -263,4 +263,4 @@ Main delivery risks and controls:
 - `docs/roadmaps/teammate-2-execution-roadmap.md`
 - `docs/architecture/mvp-architecture.md`
 - `docs/flows/mvp-screen-by-screen-app-flow.md`
-- `docs/prd/CrisisBridge-AI-PRD.docx` (next rename candidate)
+- `docs/prd/Crisis-OS-PRD.docx` (next rename candidate)

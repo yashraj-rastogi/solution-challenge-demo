@@ -1,4 +1,4 @@
-# CrisisBridge AI - Execution Roadmap (Teammate 1)
+# Crisis OS - Execution Roadmap (Teammate 1)
 
 Owner: Teammate 1  
 Primary role: Frontend + UX + Client-side integration  

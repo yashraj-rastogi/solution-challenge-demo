@@ -1,4 +1,4 @@
-# CrisisBridge AI - Execution Roadmap (Teammate 2)
+# Crisis OS - Execution Roadmap (Teammate 2)
 
 Owner: Teammate 2  
 Primary role: Backend + AI + Realtime workflow orchestration  

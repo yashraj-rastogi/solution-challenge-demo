@@ -1,0 +1,19 @@
+{
+  "name": "crisis-os",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev:web",
+    "dev:web": "npm --workspace @crisis-os/web run dev",
+    "build:web": "npm --workspace @crisis-os/web run build",
+    "lint:web": "npm --workspace @crisis-os/web run lint",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "build:functions": "npm --workspace @crisis-os/functions run build",
+    "typecheck:functions": "npm --workspace @crisis-os/functions run typecheck"
+  }
+}
+

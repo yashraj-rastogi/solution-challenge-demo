@@ -1,4 +1,4 @@
-# CrisisBridge AI - MVP Architecture
+# Crisis OS - MVP Architecture
 
 Version: `v1.0`  
 Audience: Product, engineering, and AI coding agents  
